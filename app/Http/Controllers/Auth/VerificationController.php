@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
+namespace Trilhaweb\Http\Controllers\Auth;
 
-use App\Http\Controllers\Controller;
+use Trilhaweb\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\VerifiesEmails;
 
 class VerificationController extends Controller

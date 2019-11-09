@@ -165,15 +165,16 @@ return [
         /*
          * Package Service Providers...
          */
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
 
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        Trilhaweb\Providers\AppServiceProvider::class,
+        Trilhaweb\Providers\AuthServiceProvider::class,
+        // Trilhaweb\Providers\BroadcastServiceProvider::class,
+        Trilhaweb\Providers\EventServiceProvider::class,
+        Trilhaweb\Providers\RouteServiceProvider::class,
 
     ],
 
